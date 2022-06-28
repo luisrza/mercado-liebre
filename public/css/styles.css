@@ -118,7 +118,7 @@ h3,
 }
 
 .description{
-    display: none;
+
     margin-top: 20px;
 
 }
@@ -265,7 +265,7 @@ footer{
 
 }
 .tarjetas{
-    width: ;
+    
     display: flex;
     flex-direction: row;
     border: black 1px solid;

@@ -17,6 +17,6 @@ app.get('/register', (req,res)=>{
     res.sendFile(__dirname + '/views/register.html');
 });
 
-app.listen(3000, ()=>{
+app.listen(PORT, ()=>{
     console.log(`Server running at http://${HOST}:${PORT}/`);
 });

@@ -10,12 +10,18 @@ body{
 }
 
 h3{
-    font-size: 24px;
+    font-size: 18px;
+    padding-bottom: 1vh;
 }
 
 p{
     font-size: 12px;
 }
+
+nav {
+    display: none;
+}
+
 
 div.top-header{
     display: flex;
@@ -130,7 +136,6 @@ h3,
     header nav{
         font-size: 12px;
         margin-left: 20px;
-
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -172,7 +177,6 @@ h3,
         transform: rotate(270deg);
     }
 }
-
 
 
 section.banner img{
@@ -258,21 +262,72 @@ main section div.products article{
 }
 
 footer{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.fa-solid{
+    justify-content: center;
+    padding: 1vw;
+    color: #0044AA;
+}
+
+.tarjetas{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 25vw;
+    text-align: center;
     justify-content: center;
-
-}
-.tarjetas{
-    
-    display: flex;
-    flex-direction: row;
-    border: black 1px solid;
-    justify-content: space-around;
+    align-items: center;
+    margin: 0 1vw;
 }
 
-.tarjetas-txt{
+.copyr{
+    padding: 1vh;
+    display: flex;
+}
+
+.campo{
+    text-align: center;
+}
+
+.campo label{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile, .interests {
+    text-align: center;
+    justify-content: center;
+}
+
+.interests {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.interestsTxt{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: .5vw;
+}
+ h4{
+    padding-top: 3vh;
+    text-align: center;
+ }
+
+.archivo {
+    text-align: center;
+}
+
+
+.login {
+    padding-top: 3vh;
+    text-align: center;
 }
